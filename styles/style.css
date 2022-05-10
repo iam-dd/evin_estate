@@ -143,7 +143,6 @@ body {
 .banner {
   width: 100%;
   margin: 100px auto;
-  border: 1px solid red;
 }
 
 .banner__title {
@@ -171,32 +170,52 @@ body {
 
 .banner__table {
   padding: 0;
-  margin: 25px auto;
+  margin: 0;
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   flex-wrap: wrap;
-  border: 1px solid black;
-
+  
 }
 
 .banner__cell {
   padding: 0;
   margin: 10px auto;
   list-style: none;
-  width: 380px;
-  height: 260px;
+  width: 340px;
+  height: 230px;
   background-color: #9bd6ce;
   box-shadow: 5px 3px #e5807e;
 }
 
+.banner__cell_transform_scale:hover {
+  transform: scale(2, 2);
+}
+
+
 /* SERVICES */
+.banner__table_flex_mod {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+} 
 
 .banner__cell_change_color {
-  padding: 0;
-  margin: 10px auto;
-  list-style: none;
-  width: 380px;
-  height: 260px;
   background-color: #e5807e;
   box-shadow: 5px 3px #9bd6ce;
+}
+
+.banner__cell_change_size {
+  width: 280px;
+  height: 160px;
+}
+
+.cell__header {
+  font-size: 18px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.cell_paragraph {
+  font-size: 10px;
+  color: gray;
 }
