@@ -1,0 +1,168 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-Regular.ttf) format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-Bold.ttf) format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-SemiBold.ttf) format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'KaushanScript';
+  src: url(../fonts/KaushanScript-Regular.ttf) format('truetype');
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* box-sizing: border-box; */
+}
+
+/* INTRO */
+
+/* .intro {
+  margin: 0 auto;
+  background: url(../images/first-section-background.jpg) center
+  no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+} */
+
+.intro__title {
+  margin: 0 auto;
+  
+}
+
+
+/* HEADER */
+
+.header {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  background: url(../images/first-section-background.jpg) center
+  no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.logo {
+  margin: 0 50px;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow:  1px 2px rgb(83, 82, 82);
+}
+
+.logo:after {
+  content: '\2302';
+  font-size: 60px;
+  color: #fce38a;
+}
+
+/* NAV */
+
+.navigation {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-right: 50px;
+}
+
+.navigation__link {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: color .1s linear;
+}
+
+.navigation__link:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #fce38a;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity .1s linear;
+}
+
+.navigation__link:hover {
+  color: #fce38a;
+}
+
+.navigation__link:hover:after {
+  display: block;
+  opacity: 1;
+}
+
+.header__title {
+  margin: 0 auto;
+  position: absolute;
+  /* text-align: center; */
+  width: 450px;
+  left: 350px;
+  top: 350px;
+  vertical-align: 50%;
+  font-family: KaushanScript;
+  font-size: 70px;
+  color: #fff;
+}
+
+.story {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.story__title {
+  margin: 0 auto;
+  font-family: KaushanScript;
+  font-size: 15pt;
+  line-height: 24pt;
+}
+
+.story-banner {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.story-banner__cell {
+  list-style: none;
+  width: 380px;
+  height: 260px;
+  background-color: #9bd6ce;
+}
