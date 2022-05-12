@@ -65,9 +65,15 @@ body {
 }
 
 .logo::after {
+  display: inline-block;
   content: '\2302';
   font-size: 60px;
   color: #fce38a;
+  -webkit-animation: rotating 10s infinite linear;
+}
+
+@-webkit-keyframes rotating {
+	to { -webkit-transform: rotateY(360deg); }
 }
 
 /* NAV */
@@ -133,7 +139,7 @@ body {
    font-size: 80px;
    color: #fff;
    text-transform: lowercase;
-  font-weight: 200;
+   font-weight: 200;
 }
 
 /* PROJECT */
@@ -174,24 +180,39 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  
 }
 
 .banner__cell {
+  position: relative;
   padding: 0;
+  margin: 0 0;
   margin: 10px auto;
   list-style: none;
   width: 340px;
   height: 230px;
-  background-color: #9bd6ce;
-  box-shadow: 5px 3px #e5807e;
+  /* box-shadow: 5px 3px #9bd6ce; */
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-delay: 0.5s;
 }
 
 .banner__cell_transform_scale:hover {
-  transform: scale(2, 2);
+  transform: scale(1.5);
 }
 
+.banner__image {
+  width: 340px;
+  height: 230px;
+}
 
+.banner__header {
+  position: absolute;
+  text-align: center;
+  font-family: 'KaushanScript';
+  font-size: 80px;
+  color: #fff;
+  z-index: 10;
+}
 /* SERVICES */
 .banner__table_flex_mod {
   max-width: 900px;
