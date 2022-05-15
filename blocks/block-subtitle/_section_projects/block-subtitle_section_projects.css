@@ -1,0 +1,13 @@
+.block-subtitle_section_projects {
+  margin: 0 auto;
+  font-family: KaushanScript;
+  font-size: 40px;
+  color: #383734;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 200;
+}
+
+.block-subtitle_section_projects::first-letter {
+  text-transform: uppercase;
+}

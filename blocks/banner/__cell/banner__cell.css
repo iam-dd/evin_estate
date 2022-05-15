@@ -1,0 +1,8 @@
+.banner__cell {
+  padding: 0;
+  margin: 10px auto;
+  list-style: none;
+  width: 340px;
+  height: 230px;
+  background-color: #9bd6ce;
+}

@@ -1,0 +1,10 @@
+.block-title_section_projects {
+  margin: 0 auto;
+  text-align: center; 
+  width: 450px;
+  font-family: 'Montserrat';
+  font-size: 60px;
+  color: #383734;
+  text-transform: uppercase;
+  line-height: 80px;
+}

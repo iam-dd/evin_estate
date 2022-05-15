@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../../vendor/fonts/Montserrat-Regular.ttf) format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../../vendor/fonts/Montserrat-Bold.ttf) format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../../vendor/fonts/Montserrat-SemiBold.ttf) format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'KaushanScript';
+  src: url(../../vendor/fonts/KaushanScript-Regular.ttf) format('truetype');
+  font-weight: normal;
+}
+
+.page {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  /* box-sizing: border-box; */
+}
