@@ -1,0 +1,12 @@
+.sheme__cell-header {
+  font-family: 'pt-sans';
+  font-weight: 200;
+  font-size: 18px;
+  text-transform: lowercase;
+  text-align: center;
+
+}
+
+.sheme__cell-header::first-letter {
+text-transform: uppercase;
+}

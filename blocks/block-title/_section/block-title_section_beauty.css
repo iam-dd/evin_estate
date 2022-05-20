@@ -1,0 +1,12 @@
+.block-title_section_beauty {
+  margin: 0 auto;
+  text-align: center; 
+  width: 450px;
+  font-family: 'AndantinoScript';
+  font-size: 60px;
+  font-weight: 200;
+  color: #383734;
+  opacity: 0.8;
+  text-transform: capitalize;
+  line-height: 60px;
+}

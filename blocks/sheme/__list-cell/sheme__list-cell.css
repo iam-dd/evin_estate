@@ -1,0 +1,11 @@
+.sheme__list-cell {
+  list-style: decimal-leading-zero inside;
+}
+
+.sheme__list-cell::marker {
+  color: #f7cb34;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Gothland';
+  
+}

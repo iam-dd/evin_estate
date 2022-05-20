@@ -1,0 +1,21 @@
+.header__button {
+  height: 40px;
+  position: absolute;
+  left: 45%;
+  top: 80%;
+  background-color: rgb(55 45 54 /.4);
+  border: none;
+  border-radius: 10px;
+  animation-name: button;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  
+  font-family: 'Montserrat';
+  color: rgb(255 255 255 /.5);
+  transition: background-color .5s linear;
+}
+
+.header__button:hover {
+ background-color: rgb(55 45 54 /.7);
+}
+

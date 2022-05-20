@@ -1,0 +1,30 @@
+.header__button {
+  height: 40px;
+  position: absolute;
+  left: 45%;
+  top: 80%;
+  background-color: rgb(55 45 54 /.4);
+  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+  border: none;
+  border-radius: 10px;
+  animation-name: button;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+  
+  font-family: 'Montserrat';
+  color: rgb(255 255 255 /.5);
+  transition: background-color .5s linear;
+}
+
+.header__button:hover {
+ background-color: rgb(55 45 54 /.7);
+ border: 2px solid #fce38a;
+ animation-play-state: paused;
+}
+
+.header__button:active {
+  background-color: rgb(55 45 54 /.3);
+  border: 2px solid #fce8a1;
+}
+

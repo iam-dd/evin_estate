@@ -1,0 +1,12 @@
+.sheme__list-header {
+  text-transform: lowercase;
+  font-family: 'pt-sans';
+  font-size: 20px;
+  color: rgba(	56 55 52 );
+  margin: 0;
+  /* padding-left: 5px; */
+}
+
+.sheme__list-header::first-letter {
+  text-transform: uppercase;
+}

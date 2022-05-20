@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../../vendor/fonts/Montserrat-Regular.ttf) format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'AndantinoScript';
+  src: url(../../vendor/fonts/andantino-script.ttf) format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url(../../vendor/fonts/Bebas_Neue_Bold.ttf) format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Gothland';
+  src: url(../../vendor/fonts/Gothland.ttf) format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'pt-sans';
+  src: url(../../vendor/fonts/pt-sans.narrow.ttf) format('truetype');
+  font-weight: normal;
+}
+
+.page {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+  box-sizing: border-box;
+}

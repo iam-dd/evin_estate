@@ -1,0 +1,11 @@
+.banner__table_section_people {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2,auto);
+  justify-items: stretch;
+  
+
+}

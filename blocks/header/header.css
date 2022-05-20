@@ -1,0 +1,15 @@
+.header {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 30px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  background: url(../../images/Beach-House-m.jpg);
+  background-position: top;
+  background-repeat:  no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 1400px;
+  height: 100vh;
+}
+

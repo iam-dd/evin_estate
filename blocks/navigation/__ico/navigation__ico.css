@@ -1,0 +1,12 @@
+.navigation__ico {
+  width: 18px;
+  
+  opacity: 0.5;
+  margin: 0 10px;
+  line-height: 5px;
+  transition: opacity 1s linear;
+}
+
+.navigation__ico:hover {
+  opacity: 1;
+}

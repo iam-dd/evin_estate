@@ -1,0 +1,16 @@
+.block-subtitle {
+  margin: 0;
+  font-family: 'AndantinoScript';
+  font-size: 60px;
+  color: rgba(	56 55 52 /.5);
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  text-transform: lowercase;
+  font-weight: 200;
+  transform: translate(-50%, -70%);
+}
+
+.block-subtitle::first-letter {
+  text-transform: uppercase;
+}

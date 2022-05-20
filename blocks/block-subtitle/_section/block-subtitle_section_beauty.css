@@ -1,0 +1,13 @@
+.block-subtitle_section_beauty {
+  margin: 0 auto;
+  font-family: 'AndantinoScript';
+  font-size: 60px;
+  color: #383734;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 200;
+}
+
+.block-subtitle_section_projects::first-letter {
+  text-transform: uppercase;
+}

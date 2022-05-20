@@ -1,0 +1,48 @@
+/* Animation for section People */
+
+.people__man1:hover .people__feedback {
+  color: black;
+} 
+
+.people__man1:hover .people__pic {
+  opacity: 0.6
+}
+
+.people__man2:hover .people__feedback {
+  color: black;
+} 
+
+.people__man2:hover .people__pic {
+  opacity: 0.6
+}
+
+.people__man3:hover .people__feedback {
+  color: black;
+} 
+
+.people__man3:hover .people__pic {
+  opacity: 0.6
+}
+
+.people__man4:hover .people__feedback {
+  color: black;
+} 
+
+.people__man4:hover .people__pic {
+  opacity: 0.6
+}
+.people__man5:hover .people__feedback {
+  color: black;
+} 
+
+.people__man5:hover .people__pic {
+  opacity: 0.6
+}
+
+.people__man6:hover .people__feedback {
+  color: black;
+} 
+
+.people__man6:hover .people__pic {
+  opacity: 0.6
+}

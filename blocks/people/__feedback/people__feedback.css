@@ -1,0 +1,10 @@
+.people__feedback {
+  font-family: 'Montserrat';
+  font-size: 12px;
+  line-height: 14px;
+  color: #b3b3b3;
+  margin: 0;
+  transition: color 1s linear;
+
+}
+

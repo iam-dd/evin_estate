@@ -1,0 +1,13 @@
+.block-title_section_sheme {
+  margin: 0 auto;
+  text-align: center; 
+  font-family: 'pt-sans';
+  font-size: 40px;
+  color: rgba(	56 55 52 /.5);
+  line-height: 110px;
+  padding: 50px 0;
+}
+
+.block-title_section_sheme::first-letter {
+text-transform: uppercase; 
+}

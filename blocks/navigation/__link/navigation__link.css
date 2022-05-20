@@ -1,0 +1,17 @@
+.navigation__link {
+  font-family: 'Montserrat';
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  opacity: 1;
+  font-size: 14px;
+  transition: transform .8s, color .8s linear;
+}
+
+.navigation__link:hover {
+  color: rgba(	56 55 52 /.5);
+  transform: scale(1.2);
+}
+
