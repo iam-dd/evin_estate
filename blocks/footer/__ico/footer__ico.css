@@ -1,0 +1,9 @@
+.footer__ico {
+  width: 30px;
+  filter: grayscale(100%);
+  transition: transform .5s linear;
+}
+
+.footer__ico:hover {
+  transform: scale(1.2) ;
+}

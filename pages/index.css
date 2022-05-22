@@ -27,8 +27,15 @@
   @import url(../blocks/block-title/_section/block-title_section_people.css);
   @import url(../blocks/people/__text-header/people__text-header.css);
   @import url(../blocks/people/__man/people__man.css);
-  @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/footer.css);
   @import url(../blocks/footer/__pic/footer__pic.css);
+  @import url(../blocks/footer/__copyright/footer__copyright.css);
+  @import url(../blocks/footer/__columns/footer__columns.css);
+  @import url(../blocks/footer/__copy-ico/footer__copy-ico.css);
+  @import url(../blocks/footer/__navigation/footer__navigation.css);
+  @import url(../blocks/footer/__ico/footer__ico.css);
+  @import url(../blocks/footer/__pic-island/footer__pic-island.css);
+  @import url(../blocks/footer/__form/footer__form.css);
 @import url(../blocks/sheme/sheme.css);
   @import url(../blocks/block-title/_section/block-title_section_sheme.css);
   @import url(../blocks/sheme/__table/sheme__table.css);

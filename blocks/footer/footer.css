@@ -1,8 +1,15 @@
 .footer {
   height: 250px;
   width: 1400px;
-  /* background-color: rgb(62, 62, 62); */
-  opacity: .7;
+  background-image: linear-gradient(rgb(255,255,255), rgb(200,200,200));
+  /* background-color: 	rgb(240,240,240); */
   margin: 0 auto;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  /* background-image: url(../../images/footer/ada_transparent.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; */
 }

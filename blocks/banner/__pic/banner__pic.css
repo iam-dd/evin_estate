@@ -1,11 +1,11 @@
 .banner__pic {
   width: 340px;
   height: 230px;
-  margin: 5px;
-  filter: grayscale(100%);
-  transition: grayscale 1s ease-out;
+  margin: 0;
+  /* filter: grayscale(100%);
+  transition: grayscale 1s ease-out; */
 }
 
-.banner__pic:hover {
+/* .banner__pic:hover {
   filter: grayscale(0);
-}
+} */
