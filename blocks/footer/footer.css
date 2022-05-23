@@ -1,4 +1,5 @@
 .footer {
+  padding-top: 100px;
   height: 250px;
   width: 1400px;
   background-image: linear-gradient(rgb(255,255,255), rgb(200,200,200));
@@ -12,4 +13,13 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat; */
+}
+
+.word-cyprus {
+  position: absolute;
+  font-family: 'Montserrat';
+  bottom: 25%;
+  left: 36%;
+  opacity: .2;
+  font-size: 50px;
 }

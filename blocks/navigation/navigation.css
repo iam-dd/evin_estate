@@ -4,3 +4,9 @@
   text-align: center;
   margin: 0;
 }
+
+.tel-number {
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 24px;
+}
